@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Nav.css">
+  <script src="https://kit.fontawesome.com/71351002cc.js" crossorigin="anonymous"></script>
+  <title>Navigation bar</title>
+</head>
+<body>
+  <div id="Nav">
+    <a href="#" onclick="handleClick('Home')">Home</a>
+    <a href="#" onclick="handleClick('About')">About</a>
+    <a href="#" onclick="handleClick('Contact')">Contact</a>
+    <a href="#" onclick="handleClick('Gallery')">Gallery</a>
+    <div class="dropdown">
+    <a href="#" onclick="handleClick('Others')">Others
+        <i class="fa-solid fa-caret-down"></i>
+      </a>
+    </div>
+  </div>
+  <script src="Nav.js"></script>
+</body>
+</html>
